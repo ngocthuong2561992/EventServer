@@ -13,4 +13,12 @@ public interface Const {
     String LOG_END_SERVICE = "--- End Service: ";
     String LOG_ERROR = "--- ERROR: ";
 
+
+    public static class AuthorizationRoles {
+        public static final String ROLE_CC = "ROLE_CC";
+        public static final String ROLE_CS = "ROLE_CS";
+        public static final String ROLE_SALES = "ROLE_SALES";
+        public static final String ROLE_ADMIN = "ROLE_ADMIN";
+    }
+
 }
